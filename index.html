@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <title>確認註冊資料｜歡迎使用 104 服務</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="layout">
+        <div class="left-panel"></div>
+        <div class="right-panel">
+            <h1>請填寫註冊資料</h1>
+            <p class="account-check">我們將會確認您是否已擁有帳戶</p>
+            <form id="registrationForm">
+                <label for="id">身分證</label>
+                <input type="text" id="id" name="id" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">手機號碼</label>
+                <input type="tel" id="phone" name="phone" placeholder="TW +886" required>
+
+                <button type="submit">註冊資料</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
